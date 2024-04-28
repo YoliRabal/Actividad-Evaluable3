@@ -133,6 +133,11 @@ function addToCart(name, price, thumbnail) {
   card.classList.add('added-to-cart-animation');
   
   cartItems.appendChild(card);
+  
+  var cart = JSON.parse(localStorage.getItem('cart')) || [];
+  cart.push(product);
+  localStorage.setItem('cart', JSON.stringify(cart));
+  showAlert('Éxito', 'Producto añadido al carrito', 'success');
 }
 
 async function initializeApp() {
