@@ -1,0 +1,66 @@
+body {
+  background-color: #f0f6ff;
+}
+
+.header-container {
+  background-color: #3498db;
+}
+
+.header-container h1 {
+  color: #fff;
+}
+
+.filter-label {
+  color: #3498db;
+}
+
+.apply-filter-btn {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.apply-filter-btn:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.resultados-title,
+.carrito-title {
+  color: #3498db;
+}
+
+.card {
+  background-color: #d6eaf8;
+  border-color: #3498db;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.section-with-margin {
+  margin-top: 20px;
+}
+
+.added-to-cart-animation {
+  animation-name: boingAnimation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes boingAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cart-item-thumbnail {
+  width: 50px;
+  height: auto;
+}
